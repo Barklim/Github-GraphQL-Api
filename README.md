@@ -38,23 +38,3 @@ On GitHub, the project works through the JSON server, so that the project works 
 [<img title="stylelint" alt="stylelint" height=48 src="https://avatars.githubusercontent.com/u/10076935?s=48&v=4"/>](https://stylelint.io/)
 [<img title="feature-sliced" alt="feature-sliced" height=48 src="https://avatars.githubusercontent.com/u/60469024?s=200&v=4"/>](https://feature-sliced.design/)
 </div>
-
-## Backend stack
-
-- **Framework**: `nest`
-- **Database**: `postgres`, `redis`, `typeorm`
-- **Mock data fetching**: `JSON Server`
-- **OAuth**: `google`
-- **Bots**: `telegram`, `slack`
-- **Scrapper**: `puppeteer`
-- **Deployment**: `netlify`
-
-<div align="center">
-
-[<img title="nestjs" alt="nestjs" height=48 src="https://raw.githubusercontent.com/Barklim/course/main/hostImg/onlyfIcons/nestjs.svg"/>](https://nestjs.com/)
-[<img title="postgres" alt="postgres" height=48 src="https://raw.githubusercontent.com/Barklim/course/main/hostImg/onlyfIcons/pg.svg"/>](https://www.postgresql.org/)
-[<img title="redis" alt="redis" height=48 src="https://raw.githubusercontent.com/Barklim/course/main/hostImg/onlyfIcons/redis.svg"/>](https://www.npmjs.com/package/ioredis)
-[<img title="google" alt="google" height=48 src="https://raw.githubusercontent.com/Barklim/course/main/hostImg/onlyfIcons/google.png"/>](https://www.npmjs.com/package/google-auth-library)
-[<img title="tg" alt="tg" height=48 src="https://raw.githubusercontent.com/Barklim/course/main/hostImg/onlyfIcons/tg.svg"/>](https://www.npmjs.com/package/node-telegram-bot-api)
-[<img title="puppeteer" alt="puppeteer" height=48 src="https://raw.githubusercontent.com/Barklim/course/main/hostImg/onlyfIcons/puppeteer.png"/>](https://www.npmjs.com/package/puppeteer)
-</div>

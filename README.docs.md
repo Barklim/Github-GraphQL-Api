@@ -1,6 +1,6 @@
 ## Github graphql clone
 
-- Ссылка клиент - [netlify](https://harmonious-heliotrope-135b77.netlify.app/)
+- Ссылка клиент - [netlify](https://barklimgithubgraphql.netlify.app/)
 - Ссылка json-server - [vercel](https://github-graphql-json-server-pmsf066d8-klim-barks-projects.vercel.app/)
 
 #### Реквизиты для входа
