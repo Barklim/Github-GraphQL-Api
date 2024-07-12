@@ -1,0 +1,17 @@
+{
+    "Public Profile": "Public Profile",
+    "Name": "Name",
+    "Location": "Location",
+    "Theme settings": "Theme settings",
+    "Choosing a theme": "Choosing a theme",
+    "Language settings": "Language settings",
+    "Choosing a language": "Choosing a language",
+
+    "Произошла ошибка при загрузке профиля": "Upload error",
+    "Попробуйте обновить страницу": "Try to update page",
+    "Серверная ошибка при сохранении": "Server error when saving",
+    "Некорректный регион": "Invalid region",
+    "Имя и фамилия обязательны": "First and last name are required",
+    "Данные не указаны": "Data is not specified",
+    "Профиль не найден": "Профиль не найден"
+}

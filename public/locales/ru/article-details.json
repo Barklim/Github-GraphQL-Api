@@ -1,0 +1,13 @@
+{
+    "Репозиторий не найден": "Репозиторий не найден",
+    "Назад к списку": "Назад к списку",
+    "Linked": "Linked repo",
+    "Thread": "Thread",
+    "Thread empty": "No comments",
+    "Rate the repository": "Оцените репозиторий",
+    "code": "code",
+    "{{count}} stars_zero": "{{count}} звезд",
+    "{{count}} stars_one": "{{count}} звезда",
+    "{{count}} stars_few": "{{count}} звезд",
+    "{{count}} stars_many": "{{count}} звезд"
+}

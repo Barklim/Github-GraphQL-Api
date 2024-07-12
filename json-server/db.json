@@ -1,0 +1,806 @@
+{
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Уведомление 2",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "3",
+      "title": "Уведомление 3",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "4",
+      "title": "Уведомление 4",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
+      "userId": "2"
+    }
+  ],
+  "repos": [
+    {
+      "id": "101",
+      "nameWithOwner": "admin/helloWorld",
+      "title": "helloWorld",
+      "shortDescriptionHTML": "A pytorch CUDA extension implementation of instant-ngp (sdf and nerf), with a GUI.",
+      "stars": 2492,
+      "updatedAt": "13.07.2023",
+      "userId": "1",
+      "languages": [
+        "PYTHON"
+      ],
+      "primaryLanguage": "PYTHON",
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nameWithOwner": "user/react",
+      "title": "react",
+      "shortDescriptionHTML": "The library for web and native user interfaces.",
+      "stars": 225,
+      "updatedAt": "20.09.2018",
+      "userId": "2",
+      "languages": [
+        "JAVASCRIPT"
+      ],
+      "primaryLanguage": "JAVASCRIPT",
+      "blocks": []
+    },
+    {
+      "id": "3",
+      "nameWithOwner": "manager/JavaGuide",
+      "title": "JavaGuide",
+      "shortDescriptionHTML": "「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！",
+      "stars": 145,
+      "updatedAt": "05.19.2023",
+      "userId": "3",
+      "languages": [
+        "JAVA"
+      ],
+      "primaryLanguage": "JAVA",
+      "blocks": []
+    },
+    {
+      "id": "4",
+      "nameWithOwner": "test/awesome-python",
+      "title": "awesome-python",
+      "shortDescriptionHTML": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+      "stars": 94002,
+      "updatedAt": "09.24.2022",
+      "userId": "4",
+      "languages": [
+        "PYTHON"
+      ],
+      "primaryLanguage": "PYTHON",
+      "blocks": []
+    },
+    {
+      "id": "5",
+      "nameWithOwner": "test/animate.css",
+      "title": "animate.css",
+      "shortDescriptionHTML": "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.",
+      "stars": 801,
+      "updatedAt": "05.10.2023",
+      "userId": "1",
+      "languages": [
+        "CSS"
+      ],
+      "primaryLanguage": "CSS",
+      "blocks": []
+    },
+    {
+      "id": "6",
+      "nameWithOwner": "manager/h2o",
+      "title": "h2o",
+      "shortDescriptionHTML": "H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server",
+      "stars": 108,
+      "updatedAt": "04.19.2023",
+      "userId": "3",
+      "languages": [
+        "C"
+      ],
+      "primaryLanguage": "C",
+      "blocks": []
+    },
+    {
+      "id": "7",
+      "nameWithOwner": "admin/6S191_MIT_DeepLearning",
+      "title": "6S191_MIT_DeepLearning",
+      "shortDescriptionHTML": "... computer vision, natural language processing, biology, and more! Students will gain foundational knowledge of deep learning algorithm…",
+      "stars": 148,
+      "updatedAt": "01.15.2023",
+      "userId": "1",
+      "languages": [
+        "JUPITERNOTEBOOK"
+      ],
+      "primaryLanguage": "JUPITERNOTEBOOK",
+      "blocks": []
+    },
+    {
+      "id": "8",
+      "nameWithOwner": "user/vscode",
+      "title": "vscode",
+      "shortDescriptionHTML": "Visual Studio Code",
+      "stars": 161,
+      "updatedAt": "01.11.2023",
+      "userId": "2",
+      "languages": [
+        "TYPESCRIPT"
+      ],
+      "primaryLanguage": "TYPESCRIPT",
+      "blocks": []
+    },
+    {
+      "id": "9",
+      "nameWithOwner": "manager/windmill",
+      "title": "windmill",
+      "shortDescriptionHTML": "Open-source developer platform to turn scripts into workflows and UIs. Fastest workflow engine (5x vs Airflow). Open-source alternative t…",
+      "stars": 90,
+      "updatedAt": "11.03.2022",
+      "userId": "3",
+      "languages": [
+        "HTML"
+      ],
+      "primaryLanguage": "HTML",
+      "blocks": []
+    },
+    {
+      "id": "10",
+      "nameWithOwner": "user/mermaid",
+      "title": "mermaid",
+      "shortDescriptionHTML": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+      "stars": 688,
+      "updatedAt": "10.23.2022",
+      "userId": "2",
+      "languages": [
+        "JAVASCRIPT"
+      ],
+      "primaryLanguage": "JAVASCRIPT",
+      "blocks": []
+    },
+    {
+      "id": "11",
+      "nameWithOwner": "admin/spotless",
+      "title": "spotless",
+      "shortDescriptionHTML": "Keep your code spotless",
+      "stars": 43,
+      "updatedAt": "10.19.2022",
+      "userId": "1",
+      "languages": [
+        "JAVA"
+      ],
+      "primaryLanguage": "JAVA",
+      "blocks": []
+    },
+    {
+      "id": "12",
+      "nameWithOwner": "test/quivr",
+      "title": "quivr",
+      "shortDescriptionHTML": "Open-source RAG Framework for building GenAI Second Brains 🧠 Build productivity assistant (RAG) ⚡️🤖 Chat with your docs (PDF, CSV, ...) &…",
+      "stars": 341,
+      "updatedAt": "09.25.2022",
+      "userId": "4",
+      "languages": [
+        "PYTHON"
+      ],
+      "primaryLanguage": "PYTHON",
+      "blocks": []
+    },
+    {
+      "id": "13",
+      "nameWithOwner": "admin/primeng",
+      "title": "primeng",
+      "shortDescriptionHTML": "The Most Complete Angular UI Component Library",
+      "stars": 98,
+      "updatedAt": "07.27.2022",
+      "userId": "1",
+      "languages": [
+        "CSS"
+      ],
+      "primaryLanguage": "CSS",
+      "blocks": []
+    },
+    {
+      "id": "14",
+      "nameWithOwner": "user/SignedLua",
+      "title": "SignedLua",
+      "shortDescriptionHTML": "Signed is a 3D modeling and construction language based on Lua and SDFs. Signed will be available for macOS and iOS and is heavily optimi…",
+      "stars": 102,
+      "updatedAt": "06.12.2022",
+      "userId": "2",
+      "languages": [
+        "C"
+      ],
+      "primaryLanguage": "C",
+      "blocks": []
+    },
+    {
+      "id": "15",
+      "nameWithOwner": "manger/QSAR-Example",
+      "title": "QSAR-Example",
+      "shortDescriptionHTML": "A simple Jupiter notebook that walks through a basic QSAR for a small chemical sdf file",
+      "stars": 1,
+      "updatedAt": "02.04.2022",
+      "userId": "3",
+      "languages": [
+        "JUPITERNOTEBOOK"
+      ],
+      "primaryLanguage": "JUPITERNOTEBOOK",
+      "blocks": []
+    },
+    {
+      "id": "16",
+      "nameWithOwner": "test/ionic-starter-super",
+      "title": "ionic-starter-super",
+      "shortDescriptionHTML": "The Ionic 2 Super Starter 🎮",
+      "stars": 377,
+      "updatedAt": "12.17.2021",
+      "userId": "4",
+      "languages": [
+        "TYPESCRIPT"
+      ],
+      "primaryLanguage": "TYPESCRIPT",
+      "blocks": []
+    },
+    {
+      "id": "17",
+      "nameWithOwner": "admin/animatescroll.js",
+      "title": "animatescroll.js",
+      "shortDescriptionHTML": "A Simple jQuery Plugin for Animating Scroll",
+      "stars": 714,
+      "updatedAt": "11.12.2020",
+      "userId": "1",
+      "languages": [
+        "HTML"
+      ],
+      "primaryLanguage": "HTML",
+      "blocks": []
+    },
+    {
+      "id": "18",
+      "nameWithOwner": "user/react-router-component",
+      "title": "react-router-component",
+      "shortDescriptionHTML": "Declarative router component for React.",
+      "stars": 874,
+      "updatedAt": "14.07.2023",
+      "userId": "2",
+      "languages": [
+        "JAVASCRIPT"
+      ],
+      "primaryLanguage": "JAVASCRIPT",
+      "blocks": []
+    },
+    {
+      "id": "19",
+      "nameWithOwner": "admin/android-viewflow",
+      "title": "android-viewflow",
+      "shortDescriptionHTML": "A horizontal view scroller library for Android",
+      "stars": 18,
+      "updatedAt": "14.07.2023",
+      "userId": "1",
+      "languages": [
+        "JAVA"
+      ],
+      "primaryLanguage": "JAVA",
+      "blocks": []
+    },
+    {
+      "id": "20",
+      "nameWithOwner": "test/Building-Micro-Frontends",
+      "title": "Building-Micro-Frontends",
+      "shortDescriptionHTML": "Building Micro Frontends",
+      "stars": 1022,
+      "updatedAt": "14.07.2023",
+      "userId": "4",
+      "languages": [
+        "PYTHON"
+      ],
+      "primaryLanguage": "PYTHON",
+      "blocks": []
+    },
+    {
+      "id": "21",
+      "nameWithOwner": "manager/dumbo",
+      "title": "dumbo",
+      "shortDescriptionHTML": "Python module that allows one to easily write and run Hadoop programs.",
+      "stars": 133,
+      "updatedAt": "14.07.2023",
+      "userId": "3",
+      "languages": [
+        "CSS"
+      ],
+      "primaryLanguage": "CSS",
+      "blocks": []
+    },
+    {
+      "id": "22",
+      "nameWithOwner": "user/BNRPersistence",
+      "title": "BNRPersistence",
+      "shortDescriptionHTML": "A set of classes which use Tokyo Cabinet to save and load Objective-C objects",
+      "stars": 422,
+      "updatedAt": "14.07.2023",
+      "userId": "2",
+      "languages": [
+        "C"
+      ],
+      "primaryLanguage": "C",
+      "blocks": []
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "some comment",
+      "repoId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "text": "some comment 2",
+      "repoId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "text": "some comment 3",
+      "repoId": "1",
+      "userId": "1"
+    },
+    {
+      "repoId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "4Cljjzl"
+    },
+    {
+      "repoId": "1",
+      "userId": "1",
+      "text": "123asfasf",
+      "id": "AEM4Dvc"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "123asfasf",
+      "id": "IFEOWl0"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "привет мир",
+      "id": "dBacYRZ"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "хехехехе",
+      "id": "rBX_C-e"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "фыафыа",
+      "id": "5k0ApX-"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "sdfsdfsd",
+      "id": "w-HDIRq"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "asdasdasd",
+      "id": "MVvGQoZ"
+    },
+    {
+      "repoId": "3",
+      "userId": "1",
+      "text": "comment 1",
+      "id": "bAs7YBE"
+    },
+    {
+      "repoId": "2",
+      "userId": "1",
+      "text": "python!!!",
+      "id": "p5rMadd"
+    },
+    {
+      "repoId": "3",
+      "userId": "1",
+      "text": "123213",
+      "id": "Zu_RNuF"
+    },
+    {
+      "repoId": "8",
+      "userId": "1",
+      "text": "dfdsf",
+      "id": "4rFHQgJ"
+    },
+    {
+      "repoId": "8",
+      "userId": "1",
+      "text": "sdfsdf",
+      "id": "yYEdTI-"
+    },
+    {
+      "repoId": "7",
+      "userId": "1",
+      "text": "123213",
+      "id": "TR1yDY6"
+    },
+    {
+      "repoId": "7",
+      "userId": "1",
+      "text": "112",
+      "id": "wSAhqy5"
+    },
+    {
+      "repoId": "18",
+      "userId": "1",
+      "text": "12",
+      "id": "r6b1z-N"
+    },
+    {
+      "repoId": "18",
+      "userId": "2",
+      "text": "привет",
+      "id": "DENfTu6"
+    },
+    {
+      "repoId": "7",
+      "userId": "2",
+      "text": "33",
+      "id": "Ps59wrg"
+    },
+    {
+      "repoId": "7",
+      "userId": "2",
+      "text": "123",
+      "id": "zzYVth3"
+    },
+    {
+      "repoId": "7",
+      "userId": "2",
+      "text": "123",
+      "id": "WjF4c_d"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "privet",
+      "id": "fta748h"
+    },
+    {
+      "repoId": "2",
+      "userId": "2",
+      "text": "питон топ",
+      "id": "ZlmlUrg"
+    },
+    {
+      "repoId": "7",
+      "userId": "1",
+      "text": "123",
+      "id": "KmtWJR_"
+    },
+    {
+      "repoId": "8",
+      "userId": "2",
+      "text": "asdasd",
+      "id": "eB1A-7c"
+    },
+    {
+      "repoId": "2",
+      "userId": "1",
+      "text": "class",
+      "id": "wAZ_hJM"
+    },
+    {
+      "repoId": "2",
+      "userId": "1",
+      "text": "asfasf",
+      "id": "SygCNYE"
+    },
+    {
+      "repoId": "1",
+      "userId": "2",
+      "text": "213",
+      "id": "bq8YXY2"
+    },
+    {
+      "repoId": "1",
+      "userId": "1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores dolorum eaque eius excepturi expedita     ipsa nam, quos rem rerum voluptas voluptate voluptatem? Dicta distinctio dolore explicabo labore magni sit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores dolorum eaque eius excepturi expedita     ipsa nam, quos rem rerum voluptas voluptate voluptatem? Dicta distinctio dolore explicabo labore magni sit!",
+      "id": "lTD5sA7"
+    },
+    {
+      "repoId": "7",
+      "userId": "1",
+      "text": "asd",
+      "id": "NfX84Yo"
+    },
+    {
+      "repoId": "18",
+      "userId": "1",
+      "text": "фыафыа",
+      "id": "Fmg06f6"
+    },
+    {
+      "repoId": "8",
+      "userId": "1",
+      "text": "test",
+      "id": "s3OVsz2"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "features": {
+        "isRepoRatingEnabled": true,
+        "isCounterEnabled": true,
+        "isAppRedesigned": true
+      },
+      "avatar": "https://avatars.githubusercontent.com/u/46284548?v=4",
+      "jsonSettings": {
+        "isReposPageWasOpened": true,
+        "theme": "app_dark_theme"
+      }
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "123",
+      "roles": [
+        "USER"
+      ],
+      "features": {
+        "isRepoRatingEnabled": false,
+        "isCounterEnabled": false,
+        "isAppRedesigned": true
+      },
+      "avatar": "https://avatars.githubusercontent.com/u/124552?s=48&v=4",
+      "jsonSettings": {
+        "isReposPageWasOpened": true,
+        "theme": "app_dark_theme"
+      }
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": [
+        "MANAGER"
+      ],
+      "features": {
+        "isRepoRatingEnabled": false,
+        "isCounterEnabled": true
+      },
+      "avatar": "https://avatars.githubusercontent.com/u/10104977?v=4",
+      "jsonSettings": {
+        "isReposPageWasOpened": true
+      }
+    },
+    {
+      "id": "4",
+      "username": "test",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "features": {
+        "isRepoRatingEnabled": true,
+        "isCounterEnabled": true
+      },
+      "avatar": "https://avatars.githubusercontent.com/u/8600818?v=4",
+      "jsonSettings": {
+        "theme": "app_orange_theme"
+      }
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "first": "firstName",
+      "lastname": "lastname",
+      "age": 25,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "admin213",
+      "avatar": "https://avatars.githubusercontent.com/u/46284548?v=4",
+      "userProfileName": "admin",
+      "userLocation": "moscow"
+    },
+    {
+      "id": "2",
+      "first": "pck",
+      "lastname": "asf",
+      "age": 465,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "jojo",
+      "avatar": "https://avatars.githubusercontent.com/u/124552?s=48&v=4",
+      "userProfileName": "sdf"
+    },
+    {
+      "id": "4",
+      "first": "test",
+      "lastname": "user",
+      "age": 465,
+      "currency": "EUR",
+      "country": "Kazakhstan",
+      "city": "Moscow",
+      "username": "testuser",
+      "avatar": "https://avatars.githubusercontent.com/u/8600818?v=4"
+    }
+  ],
+  "repo-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хороший репозиторий",
+      "userId": "1",
+      "repoId": "1"
+    },
+    {
+      "userId": "1",
+      "repoId": "3",
+      "rate": 3,
+      "feedback": "",
+      "id": "I7ofk1u"
+    },
+    {
+      "userId": "1",
+      "repoId": "9",
+      "rate": 5,
+      "feedback": "asdasdasdasd",
+      "id": "Y7MhPzo"
+    },
+    {
+      "userId": "1",
+      "repoId": "10",
+      "rate": 1,
+      "feedback": "отстой",
+      "id": "II0a75O"
+    },
+    {
+      "userId": "1",
+      "repoId": "7",
+      "rate": 3,
+      "feedback": "",
+      "id": "bcPnbbZ"
+    },
+    {
+      "userId": "2",
+      "repoId": "1",
+      "rate": 4,
+      "feedback": "asdasdasdad",
+      "id": "1I3E5gT"
+    },
+    {
+      "userId": "1",
+      "repoId": "2",
+      "rate": 2,
+      "feedback": "asdasdasd",
+      "id": "xbwnNBF"
+    },
+    {
+      "userId": "1",
+      "repoId": "12",
+      "rate": 5,
+      "feedback": "фыаыфаыаф",
+      "id": "ftXTMSh"
+    },
+    {
+      "userId": "2",
+      "repoId": "8",
+      "rate": 1,
+      "id": "wtD4n_i"
+    },
+    {
+      "userId": "1",
+      "repoId": "8",
+      "rate": 2,
+      "feedback": "test",
+      "id": "VDnoKJz"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хороший репозиторий",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хороший репозиторий",
+      "userId": "1",
+      "profileId": "2"
+    }
+  ]
+}
