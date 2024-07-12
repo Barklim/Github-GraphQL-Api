@@ -1,10 +1,10 @@
-# [GithubGraphqlClone](https://oftracker.netlify.app/)
+# [GithubGraphqlClone](https://barklimgithubgraphql.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dafb8df5-b801-4ddf-84e8-1e145889f61f/deploy-status)](https://app.netlify.com/sites/oftracker/deploys)
-![GitHub top language](https://img.shields.io/github/languages/top/Barklim/onlyfClient)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6d1194b-dee6-4468-aae9-9e339d5f0cbc/deploy-status)](https://app.netlify.com/sites/barklimgithubgraphql/deploys)
+![GitHub top language](https://img.shields.io/github/languages/top/Barklim/Github-GraphQL-Api)
 [![FeatureSliced](https://img.shields.io/badge/Powered%20by-%F0%9F%8D%B0%20Feature%20Sliced-%235c9cb5)](https://feature-sliced.design/)
 
-<img alt="favicon" src="https://oftracker.netlify.app/3f60cec359ae89396e8bda9a50c03029.png" height=120 align="right" />
+<img alt="favicon" src="https://avatars.githubusercontent.com/u/9919?v=4&s=200" height=120 align="right" />
 
 Simple github clone app with github graphql.
 On GitHub, the project works through the JSON server, so that the project works through requests to graphquel GitHub, run it locally and set the token in the settings.
@@ -12,7 +12,10 @@ On GitHub, the project works through the JSON server, so that the project works 
 - [Documentation](https://github.com/Barklim/Github-GraphQL-Api/blob/main/README.docs.md)
 - [Architecture design guidelines](https://feature-sliced.design/)
 - [Contributing guide](CONTRIBUTING.md)
-- **Source code**: [Frontend](https://github.com/Barklim/onlyfClient), [JSONserver (vercel)](https://github.com/Barklim/githubGraphqlJsonServer), [JSONserver (github)](https://github-graphql-json-server-pmsf066d8-klim-barks-projects.vercel.app/)
+- **Source code**: [Frontend](https://github.com/Barklim/Github-GraphQL-Api), [JSONserver](https://github.com/Barklim/githubGraphqlJsonServer)
+- **Deploy**: [Frontend](https://barklimgithubgraphql.netlify.app/), [JSONserver](https://github-graphql-json-server-pmsf066d8-klim-barks-projects.vercel.app/)
+
+
 
 ## Frontend stack
 

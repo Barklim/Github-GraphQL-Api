@@ -15,7 +15,6 @@
 
 - language github dots
 - update bio
-- github
 
 ----
 
